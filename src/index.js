@@ -20,8 +20,6 @@ pixelationElement.oninput = (e) => {
   pixelateImage(originalImage, parseInt(e.target.value));
 };
 
-console.log("b");
-
 function fileToDataUri(field) {
   return new Promise((resolve) => {
     const reader = new FileReader();
